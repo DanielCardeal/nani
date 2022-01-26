@@ -19,6 +19,10 @@ body, html {
     padding: 0;
 }
 
+a {
+    color: var(--fg-color);
+    text-decoration: none;
+}
 /* --- Estilos gerais */
 body {
     padding: 5% 20%;
@@ -73,18 +77,8 @@ ul.tags-pag {
     border-radius: 5px;
 }
 
-/* --- Links normais */
-a:link, a:visited {
-    color: var(--cor-links);
     text-decoration: none;
 }
-a:hover {
-    /* Inverte as cores quando hover */
-    color: var(--cor-bg);
-    background-color: var(--cor-links);
 }
 
-/* --- Imagens */
-img {
-    width: 100%;
 }
