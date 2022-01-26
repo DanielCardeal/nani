@@ -6,6 +6,7 @@
 
     /* Cores */
     --cor-bg: #FBFAF5;
+    --cor-bg-sec: #e5e5e5;
     --cor-fg: #444444;
     --cor-fg-sec: #666;
     --cor-tags: #DED7FB;
@@ -82,8 +83,37 @@ h2.rascunho {
     border-radius: 5px;
 }
 
-    text-decoration: none;
-}
+
+/* --- Preview de posts (list view) */
+.lista-posts {
+    padding-left: 0px;
+    list-style: none;
 }
 
+.lista-posts li {
+    margin: 15px 0px;
+}
+
+.resumo-post {
+    /* Limpa estilos de link */
+    color: var(--fg-color);
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: var(--cor-bg-sec);
+    border-radius: 5px;
+}
+
+.resumo-post h4 {
+    margin: 10px 0px;
+    font-size: 20px;
+    font-family: var(--font-tit);
+}
+
+.resumo-post p {
+    font-size: 16px;
+
+}
+
+.resumo-post h4.data {
+    font-size: 14px;
 }
