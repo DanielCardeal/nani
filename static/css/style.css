@@ -1,10 +1,3 @@
-/* --- Limpeza de estilos */
-body, html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 /* --- Variáveis globais */
 :root {
     /* Fontes */
@@ -17,6 +10,13 @@ body, html {
     --cor-fg-sec: #666;
     --cor-tags: #DED7FB;
     --cor-links: red;
+}
+
+/* --- Limpeza de estilos */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* --- Estilos gerais */
