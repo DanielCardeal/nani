@@ -66,12 +66,12 @@ h2.rascunho {
 }
 
 /* --- Tags */
-ul.tags-pag {
+.lista-tags {
     padding: 0;
     list-style-type: none;
 }
 
-.tags-pag li {
+.lista-tags li {
     /* Mostra os itens da lista de tags na horizontal */
     display: inline;
 

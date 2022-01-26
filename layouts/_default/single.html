@@ -9,7 +9,7 @@
 <h2 class="data">{{ .Date | time.Format "02 January, 2006" }}</h2>
 
 {{ if isset .Params "tags" }}
-    <ul class="tags-pag">
+    <ul class="lista-tags">
     {{ range .Params.tags }}
         <li>{{ . }}</li>
         <li>Skate</li>
