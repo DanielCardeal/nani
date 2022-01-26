@@ -37,7 +37,11 @@ p, li {
     line-height: 1.2;
 }
 
-/* --- Títulos e subtítulos de posts */
+h2 {
+    font-size: 30px;
+}
+
+/* --- Títulos de posts */
 h1.titulo-post {
     font-family: var(--fonte-tit);
     font-size: 52px;
@@ -45,13 +49,12 @@ h1.titulo-post {
     text-transform: uppercase;
 }
 
-h2 {
-    font-size: 30px;
-}
-
-/* --- Subtítulos */
+/* --- Autor e data */
 h2.data, h2.autor {
     font-size: 18px;
+}
+
+.data, .author {
     margin-top: 0px;
     color: var(--cor-fg-sec);
 }
