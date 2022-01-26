@@ -23,6 +23,7 @@ a {
     color: var(--fg-color);
     text-decoration: none;
 }
+
 /* --- Estilos gerais */
 body {
     padding: 5% 20%;
@@ -69,6 +70,7 @@ ul.tags-pag {
     padding: 0;
     list-style-type: none;
 }
+
 .tags-pag li {
     /* Mostra os itens da lista de tags na horizontal */
     display: inline;
